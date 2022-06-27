@@ -81,7 +81,7 @@ void handle_sig(int n __attribute__((unused)))
  * cmd_type - Checks the command whether its a built-in or executable
  * with a pathname
  * @cmd: array of pointers to command line arguments
- * @b: lineptr returned by getline function
+ * @b: lineptr is returned by the getline function
  *
  * Return: 1 if the command is executed, 0 otherwise
  */
